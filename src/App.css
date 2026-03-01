@@ -1,174 +1,164 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	font-family:
-		"Outfit",
-		-apple-system,
-		BlinkMacSystemFont,
-		sans-serif;
-	background: linear-gradient(145deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-	min-height: 100vh;
-	color: #e8e8e8;
+  margin: 0;
+  font-family: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(145deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  min-height: 100vh;
+  color: #e8e8e8;
 }
 
 .container {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	padding: 24px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
 }
 
 .main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background: rgba(255, 255, 255, 0.06);
-	backdrop-filter: blur(12px);
-	color: #e8e8e8;
-	gap: 24px;
-	box-shadow:
-		0 8px 32px rgba(0, 0, 0, 0.3),
-		0 0 0 1px rgba(255, 255, 255, 0.08);
-	padding: 32px 40px;
-	border-radius: 20px;
-	max-width: 480px;
-	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  color: #e8e8e8;
+  gap: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  padding: 32px 40px;
+  border-radius: 20px;
+  max-width: 480px;
+  width: 100%;
 }
 
 .result-header {
-	text-align: center;
-	font-size: 1.25rem;
-	font-weight: 600;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.7);
-	margin: 0 0 4px 0;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 4px 0;
 }
 
 .result-wrapper {
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 12px;
-	flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 .result-wrapper span:not(.result) {
-	font-size: 0.95rem;
-	color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .result {
-	text-align: center;
-	font-size: 1.35rem;
-	font-weight: 700;
-	border-radius: 12px;
-	background: linear-gradient(135deg, #e94560 0%, #c73e54 100%);
-	margin: 0 4px;
-	padding: 8px 16px;
-	color: #fff;
-	box-shadow: 0 4px 14px rgba(233, 69, 96, 0.4);
-	letter-spacing: 0.02em;
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e94560 0%, #c73e54 100%);
+  margin: 0 4px;
+  padding: 8px 16px;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(233, 69, 96, 0.4);
+  letter-spacing: 0.02em;
 }
 
 .display {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	gap: 28px;
-	padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 28px;
+  padding: 16px 0;
 }
 
 .user {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .user span {
-	font-weight: 600;
-	font-size: 0.9rem;
-	color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .fighter {
-	color: #e94560;
-	font-weight: 700;
-	font-size: 1.5rem;
-	padding: 8px 12px;
-	background: rgba(233, 69, 96, 0.15);
-	border-radius: 12px;
-	letter-spacing: 0.1em;
+  color: #e94560;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 8px 12px;
+  background: rgba(233, 69, 96, 0.15);
+  border-radius: 12px;
+  letter-spacing: 0.1em;
 }
 
 .avatar {
-	border: 3px solid rgba(233, 69, 96, 0.5);
-	border-radius: 50%;
-	width: 80px;
-	height: 80px;
-	background: rgba(255, 255, 255, 0.08);
-	padding: 6px;
-	object-fit: contain;
-	transition:
-		border-color 0.2s ease,
-		box-shadow 0.2s ease;
+  border: 3px solid rgba(233, 69, 96, 0.5);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px;
+  object-fit: contain;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .avatar:hover {
-	border-color: rgba(233, 69, 96, 0.8);
-	box-shadow: 0 0 20px rgba(233, 69, 96, 0.2);
+  border-color: rgba(233, 69, 96, 0.8);
+  box-shadow: 0 0 20px rgba(233, 69, 96, 0.2);
 }
 
 .choices {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	gap: 16px;
-	background: rgba(15, 52, 96, 0.6);
-	padding: 20px 24px;
-	border-radius: 16px;
-	border: 1px solid rgba(255, 255, 255, 0.08);
-	box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  background: rgba(15, 52, 96, 0.6);
+  padding: 20px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .choices-title {
-	text-align: center;
-	font-size: 1rem;
-	font-weight: 600;
-	color: rgba(255, 255, 255, 0.8);
-	margin: 0 0 8px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 8px 0;
 }
 
 .choice {
-	border-radius: 50%;
-	width: 72px;
-	height: 72px;
-	cursor: pointer;
-	transition:
-		transform 0.2s ease,
-		box-shadow 0.2s ease;
-	background: rgba(255, 255, 255, 0.06);
-	padding: 8px;
-	border: 2px solid transparent;
-	object-fit: contain;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 8px;
+  border: 2px solid transparent;
+  object-fit: contain;
 }
 
 .choice:hover {
-	transform: scale(1.12);
-	box-shadow: 0 6px 24px rgba(233, 69, 96, 0.25);
-	border-color: rgba(233, 69, 96, 0.4);
+  transform: scale(1.12);
+  box-shadow: 0 6px 24px rgba(233, 69, 96, 0.25);
+  border-color: rgba(233, 69, 96, 0.4);
 }
 
 .choice:active {
-	transform: scale(1.02);
+  transform: scale(1.02);
 }

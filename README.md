@@ -8,7 +8,7 @@ You must have played "Rock Paper Scissors" at least once. Here you will build it
 | :-------------------------------------------------------------------: |
 |                      _Rock Paper Scissors Game_                       |
 
-[Go to demo website !](https://rock-paper-scissor-trancaodua.netlify.app/)
+[Go to demo website !](https://m2-rock-paper-scissor.vercel.app)
 
 ---
 

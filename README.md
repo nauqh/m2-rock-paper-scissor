@@ -14,7 +14,7 @@ You must have played "Rock Paper Scissors" at least once. Here you will build it
 
 ## Where should I work?
 
-- **Branch:** Work on the **`requirement`** branch. Do not edit the **`solution`** branch; that holds the reference implementation.
+- **Branch:** Work on the **`master`** branch. That’s where the "Your code here" placeholders are. Use the **`solution`** branch only as a reference; don’t edit it.
 - **Locations:** Search the repo for **`"Your code here"`** to find every spot you must complete. You should **only** change those designated areas; leave the rest of the codebase as is.
 
 | File | What you need to do |
@@ -38,18 +38,19 @@ All of these are in the **`src/components/`** folder (and the state lives in **`
 
 ## Branches and setup
 
-**Repository has 2 branches:**
+**Repository:**
 
-- **`requirement`** — This is where you code. All "Your code here" placeholders are on this branch.
+- **`master`** — This is where you code. All "Your code here" placeholders are on this branch.  
+  [View on GitHub →](https://github.com/nauqh/m2-rock-paper-scissor/tree/master)
 - **`solution`** — Reference solution. Use it only to check answers; don’t edit it.
 
 **Get started:**
 
-1. **Fork** the repo on GitHub: [rock-paper-scrissor-game](https://github.com/trancaodua/rock-paper-scrissor-game) → click "Fork". (That gives you your own copy to push to.)
-2. **Clone** your fork to your machine (replace `YOUR_USERNAME` with your GitHub username):  
-   `git clone https://github.com/YOUR_USERNAME/rock-paper-scrissor-game.git`
-3. **Checkout** the requirement branch:  
-   `git checkout requirement`
+1. **Fork** the repo on GitHub: [nauqh/m2-rock-paper-scissor](https://github.com/nauqh/m2-rock-paper-scissor) → click **Fork**.
+2. **Clone** your fork (replace `YOUR_USERNAME` with your GitHub username):  
+   `git clone https://github.com/YOUR_USERNAME/m2-rock-paper-scissor.git`
+3. **Checkout** the `master` branch (this is your working branch):  
+   `git checkout master`
 4. Search the codebase for **"Your code here"** to see every spot you need to complete.
 
 **To view the solution later:**  
